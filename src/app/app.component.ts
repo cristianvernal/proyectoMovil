@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public appPages = [
-    { title: 'Login', url: '/folder/Inbox', icon: 'log-in' },
-    { title: 'Outbox', url: '/folder/Outbox', icon: 'paper-plane' },
-    { title: 'Favorites', url: '/folder/Favorites', icon: 'heart' },
+    { title: 'Inicio', url: '/folder/Inicio', icon: 'home' },
+    { title: 'Iniciar sesión', url: '/folder/Inbox', icon: 'log-in' },
+    { title: 'Restablecer contraseña', url: '/folder/RestablecerContraseña', icon: 'lock-closed' },
     { title: 'Archived', url: '/folder/Archived', icon: 'archive' },
     { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
     { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
