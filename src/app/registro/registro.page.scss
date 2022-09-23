@@ -1,5 +1,6 @@
 h1{
     text-align: center;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.9);
 }
 
 ion-input{
@@ -8,4 +9,6 @@ ion-input{
     margin-top: 30px;
     color: #03045e;
     font-size: large;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.9);
 }
