@@ -8,6 +8,8 @@ export class AppComponent {
   public appPages = [
     
     { title: 'Iniciar sesión', url: '/login', icon: 'log-in' },
+    { title: 'Registrate', url: '/registro', icon: 'person-add' },
+
     
 ];
  
