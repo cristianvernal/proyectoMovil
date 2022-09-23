@@ -23,7 +23,7 @@ export class LoginPage implements OnInit {
     const loading = await this.loadingController.create({
       cssClass: 'my-custom-class',
       message: 'Por favor espere...',
-      duration: 2000,
+      duration: 1000,
     });
     await loading.present();
 
