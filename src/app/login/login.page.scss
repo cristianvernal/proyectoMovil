@@ -1,0 +1,27 @@
+.caja{
+    display: flex;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #8d99ae;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.boton{
+    margin-top: 10px;
+    --background: blue;
+    display: flex;
+    color: yellow;
+    
+}
+
+.my-custom-class{
+    --background: red;
+    --spinner-color: aqua;
+  
+    color: red;
+}
+
+#foto{
+    position: relative;
+}

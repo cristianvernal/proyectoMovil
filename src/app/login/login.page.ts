@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { LoadingController } from '@ionic/angular';
 @Component({
   selector: 'app-login',
   templateUrl: './login.page.html',
@@ -7,9 +7,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginPage implements OnInit {
 
-  constructor() { }
 
+  constructor(public loadingController: LoadingController) { }
+
+  
+  
+  
   ngOnInit() {
+  
+    
+   
   }
 
+  async presentLoading() {
+    const loading = await this.loadingController.create({
+      cssClass: 'my-custom-class',
+      message: 'Por Favor Espere...',
+      duration: 2000,
+    });
+    await loading.present();
+
 }
+
+}
+
