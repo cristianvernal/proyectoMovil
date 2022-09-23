@@ -1,7 +1,11 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>Iniciar Sesión</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="folder/"></ion-back-button> 
+    </ion-buttons>
   </ion-toolbar>
+
 </ion-header>
 
 <ion-content class="ion-padding ion-text-center">
@@ -13,11 +17,11 @@
 <div class="form">
 
   <ion-item lines="none">
-    <ion-input class="caja" placeholder="Ingrese Correo"></ion-input>
+    <ion-input class="caja" placeholder="Ingrese su correo"></ion-input>
   </ion-item>
   
   <ion-item lines="none">
-    <ion-input class="caja" placeholder="Ingrese Contraseña" type="password"></ion-input>
+    <ion-input class="caja" placeholder="Ingrese su contraseña" type="password"></ion-input>
   </ion-item>
   
   <ion-button class="boton" ion-button [routerLink]="['/inicio']" (click)="presentLoading()">Ingresar</ion-button>

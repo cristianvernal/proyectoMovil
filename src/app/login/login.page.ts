@@ -22,7 +22,7 @@ export class LoginPage implements OnInit {
   async presentLoading() {
     const loading = await this.loadingController.create({
       cssClass: 'my-custom-class',
-      message: 'Por Favor Espere...',
+      message: 'Por favor espere...',
       duration: 2000,
     });
     await loading.present();
