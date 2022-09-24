@@ -8,25 +8,25 @@
 
 </ion-header>
 
-<ion-content class="ion-padding ion-text-center">
+<ion-content class=" login ion-padding ion-text-center">
 
-  <div class="logo">
-    <ion-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwRK0BZkjRDzAUk99nmiGFHlqL5-ua5ylAeYA9COSD8OyzR1hdq3VO_UuIa_4UquxytQA&usqp=CAU" alt="logo"></ion-img>
-  </div>
-
-<div class="form">
-
-  <ion-item lines="none">
-    <ion-input class="caja" placeholder="Ingrese su correo"></ion-input>
-  </ion-item>
   
-  <ion-item lines="none">
+    <ion-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwRK0BZkjRDzAUk99nmiGFHlqL5-ua5ylAeYA9COSD8OyzR1hdq3VO_UuIa_4UquxytQA&usqp=CAU" alt="logo" class="foto"></ion-img>
+ 
+
+
+
+  
+    <ion-input class="caja" placeholder="Ingrese su correo"></ion-input>
+  
+  
+  
     <ion-input class="caja" placeholder="Ingrese su contraseña" type="password"></ion-input>
-  </ion-item>
+ 
   
   <ion-button class="boton" ion-button [routerLink]="['/inicio']" (click)="presentLoading()">Ingresar</ion-button>
   
 
   <ion-button class="boton" ion-button [routerLink]="['/restablecer']">Recuperar Contraseña</ion-button>
-</div>
+
 </ion-content>

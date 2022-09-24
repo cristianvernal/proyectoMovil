@@ -1,6 +1,4 @@
-ion-background-color{
-  background-color: aqua;
-}
+
 ion-menu ion-content {
   --background: var(--ion-item-background, var(--ion-background-color, #fff));
 }
@@ -125,4 +123,8 @@ ion-item.selected {
   font-family:Arial, Helvetica, sans-serif, cursive;
   
   opacity: 0.5;
+}
+
+.contenido{
+  --background: url(../assets/kisspng-metallic-color-texture-mapping-silver-glitter-silver-5ab7b743b425b6.5511398015219894437379.jpg);
 }

@@ -4,6 +4,7 @@
     border-style: solid;
     border-color: #8d99ae;
     display: block;
+    color: white;
 
     
     
@@ -16,9 +17,16 @@ ion-button{
     
     
     --background: blue;
-    color: yellow; 
+    color: white; 
 }
 
 h3{
     text-align: center;
+    color: white;
 }
+
+ion-content{
+    --background: #00afb9;
+    
+    
+  }

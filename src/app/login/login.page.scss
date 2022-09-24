@@ -2,16 +2,18 @@
     display: flex;
     border-style: solid;
     border-radius: 20px;
-    border-color: #8d99ae;
+    border-color: blue;
     margin-top: 10px;
     text-align: center;
+    color: white;
 }
 
 .boton{
     margin-top: 10px;
     --background: blue;
     display: flex;
-    color: yellow;
+    color: white;
+    
     
 }
 
@@ -22,6 +24,10 @@
     color: red;
 }
 
-#foto{
+.foto{
     position: relative;
 }
+
+.login{
+    --background: #00afb9;
+  }
