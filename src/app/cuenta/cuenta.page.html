@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Cuenta</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/inicio"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div> 
+    <h2>Cristian</h2>    
+    <ion-avatar>
+      <img src="http://www.veterinario24hmadrid.es/imagenipequena-veterinario-24-horas-Electrocucion-en-el-gato-Qu-e-hacer--194.jpg" />
+    </ion-avatar>
+  </div>
+  
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="schedule" ion-button [routerLink]="['/inicio']">
+        <ion-icon name="home"></ion-icon>
+        <ion-label>Inicio</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="map" ion-button [routerLink]="['/viajes']">
+        <ion-icon name="car"></ion-icon>
+        <ion-label>Organiza tu viaje</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="speakers" ion-button [routerLink]="['/historial']">
+        <ion-icon name="bookmark"></ion-icon>
+        <ion-label>Historial</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="map" ion-button [routerLink]="['/cuenta']">
+        <ion-icon name="person-circle"></ion-icon>
+        <ion-label>Cuenta</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-content>
