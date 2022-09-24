@@ -15,7 +15,7 @@ export class RegistroPage implements OnInit {
   async registroCompleto() {
     const alert = await this.alertController.create({
       header: 'Registro Enviado',
-      message: 'Se ha enviado un correo de confirmacion de registro exitosamente.',
+      message: 'Se ha enviado un correo de confirmacion exitosamente.',
       buttons: ['OK'],
     });
 

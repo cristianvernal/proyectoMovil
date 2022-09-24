@@ -6,14 +6,15 @@ h1{
 
 ion-input{
     border-style: solid;
-    border-color: blue;
+    border-color: white;
     margin-top: 30px;
-    color: white;
+    color: black;
     font-size: large;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    background: white;
     
 }
 
 ion-content{
-    --background: #00afb9;
+    --background: url(../../assets/87afd624742cab1602dddf926335682c.jpg);
   }
