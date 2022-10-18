@@ -1,5 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { LoadingController } from '@ionic/angular';
+import { FormGroup, FormBuilder,Validators} from '@angular/forms';
+import { ErrorTailorModule } from '@ngneat/error-tailor';
+import { DbService } from '../services/db.service';
+
+
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.page.html',
@@ -7,19 +13,30 @@ import { LoadingController } from '@ionic/angular';
 })
 export class LoginPage implements OnInit {
 
+  public form: FormGroup;
 
-  constructor(public loadingController: LoadingController) { }
+  modeloCorreo: string = '';
+  modeloPassword: string = '';
 
-  
-  
-  
-  ngOnInit() {
-  
-    
-   
-  }
+  constructor(public loadingController: LoadingController, private FormBuilder: FormBuilder, private dbServicio: DbService) {}
+ngOnInit(): void{
+    this.form = this.FormBuilder.group({
+      email: ['', [Validators.required, Validators.email,]],
+      password: ['', [Validators.required, Validators.minLength(6)]],
+      
+    });
+}
 
-  async presentLoading() {
+send(): any{
+  console.log(this.form.value);
+}
+
+
+validarCredenciales(){
+  console.log(this.modeloCorreo);
+  console.log(this.modeloPassword);
+}
+async presentLoading() {
     const loading = await this.loadingController.create({
       cssClass: 'my-custom-class',
       message: 'Por favor espere...',
@@ -28,6 +45,9 @@ export class LoginPage implements OnInit {
     await loading.present();
 
 }
+
+
+
 
 }
 
