@@ -8,41 +8,41 @@ const routes: Routes = [
     redirectTo: 'folder/Inbox',
     pathMatch: 'full'
   },
-  {
-    path: 'login',
-    redirectTo: 'login',
-    pathMatch: 'full'
-  },
-  {
-    path: 'inicio',
-    redirectTo: 'inicio',
-    pathMatch: 'full'
-  },
-  {
-    path: 'restablecer',
-    redirectTo: 'restablecer',
-    pathMatch: 'full'
-  },
-  {
-    path: 'registro',
-    redirectTo: 'registro',
-    pathMatch: 'full'
-  },
-  {
-    path: 'viajes',
-    redirectTo: 'viajes',
-    pathMatch: 'full'
-  },
-  {
-    path: 'cuenta',
-    redirectTo: 'cuenta',
-    pathMatch: 'full'
-  },
-  {
-    path: 'historia',
-    redirectTo: 'historial',
-    pathMatch: 'full'
-  },
+  // {
+  //   path: 'login',
+  //   redirectTo: 'login',
+  //   pathMatch: 'full'
+  // },
+  // {
+  //   path: 'inicio',
+  //   redirectTo: 'inicio',
+  //   pathMatch: 'full'
+  // },
+  // {
+  //   path: 'restablecer',
+  //   redirectTo: 'restablecer',
+  //   pathMatch: 'full'
+  // },
+  // {
+  //   path: 'registro',
+  //   redirectTo: 'registro',
+  //   pathMatch: 'full'
+  // },
+  // {
+  //   path: 'viajes',
+  //   redirectTo: 'viajes',
+  //   pathMatch: 'full'
+  // },
+  // {
+  //   path: 'cuenta',
+  //   redirectTo: 'cuenta',
+  //   pathMatch: 'full'
+  // },
+  // {
+  //   path: 'historia',
+  //   redirectTo: 'historial',
+  //   pathMatch: 'full'
+  // },
   
   {
     path: 'folder/:id',
